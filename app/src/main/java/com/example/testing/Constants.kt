@@ -11,94 +11,113 @@ object Constants {
 
         val q1 = Question(
             1,
-            "What country does this flag belong to?",
-            R.drawable.ic_flag_of_argentina,
-            "Argentina", "Austrialia",
-            "Armenia", "Austria",
-            1
+            "What is the name of this object in the solar system?",
+            R.drawable.ic_earth,
+            "Ceres", "Earth",
+            "Urf", "Aerth",
+            2
         )
         questionsList.add(q1)
 
         val q2 = Question(
-            2, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_australia,
-            "Angola", "Austria",
-            "Australia", "Armenia", 3
+            2,
+            "What is the name of this object in the solar system?",
+            R.drawable.ic_jupiter,
+            "Saturn", "Mars",
+            "Jupiter", "Sun",
+            3
         )
 
         questionsList.add(q2)
 
         val q3 = Question(
-            3, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_brazil,
-            "Belarus", "Belize",
-            "Brunei", "Brazil", 4
+            3,
+            "What is the name of this object in the solar system?",
+            R.drawable.ic_mars,
+            "Moon", "Pallas",
+            "Saturn", "Mars",
+            4
         )
 
         questionsList.add(q3)
 
         val q4 = Question(
-            4, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_belgium,
-            "Bahamas", "Belgium",
-            "Barbados", "Belize", 2
+            4,
+            "What is the name of this object in the solar system?",
+            R.drawable.ic_mercury,
+            "Uranus", "Mercury",
+            "Moon", "Triton",
+            2
         )
 
         questionsList.add(q4)
 
         val q5 = Question(
-            5, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_fiji,
-            "Gabon", "France",
-            "Fiji", "Finland", 3
+            5,
+            "What is the name of this object in the solar system?",
+            R.drawable.ic_moon,
+            "Phobos", "Star",
+            "Moon", "Mercury",
+            3
         )
 
         questionsList.add(q5)
 
         val q6 = Question(
-            6, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_germany,
-            "Germany", "Georgia",
-            "Greece", "none of these", 1
+            6,
+            "What is the name of this object in the solar system?",
+            R.drawable.ic_neptune,
+            "Neptune", "Uranus",
+            "Pluto", "None of these",
+            1
         )
 
         questionsList.add(q6)
 
         val q7 = Question(
-            7, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_denmark,
-            "Dominica", "Egypt",
-            "Denmark", "Ethiopia", 3
+            7,
+            "What is the name of this object in the solar system?",
+            R.drawable.ic_saturn,
+            "Vesta", "Mars",
+            "Saturn", "Jupiter",
+            3
         )
 
         questionsList.add(q7)
 
         val q8 = Question(
-            8, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_india,
-            "Ireland", "Iran",
-            "Hungary", "India", 4
+            8,
+            "What is the name of this object in the solar system?",
+            R.drawable.ic_sun,
+            "Charon", "Saturn",
+            "Mars", "Sun",
+            4
         )
 
         questionsList.add(q8)
 
         val q9 = Question(
-            9, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_new_zealand,
-            "Australia", "New Zealand",
-            "Tuvalu", "United States of America", 2
+            9,
+            "What is the name of this object in the solar system?",
+            R.drawable.ic_uranus,
+            "Neptune", "Uranus",
+            "Pluto", "None of these",
+            2
         )
 
         questionsList.add(q9)
 
         val q10 = Question(
-            10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            10,
+            "What is the name of this object in the solar system?",
+            R.drawable.ic_venus,
+            "Venus", "Earth",
+            "Neptune", "Palestine",
+            1
         )
         questionsList.add(q10)
 
+        questionsList.shuffle()
         return questionsList
     }
 }

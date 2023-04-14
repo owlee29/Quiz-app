@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:contentDescription="Question Image"
-            tools:src="@drawable/ic_flag_of_germany"
+            tools:src="@drawable/ic_earth"
             />
 
         <LinearLayout
